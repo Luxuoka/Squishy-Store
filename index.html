@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veloura Squishy Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slider-container">
+        <div class="slide">
+            <img src="./img/Header Slider/2.JPG" alt="Produk Berkualitas">
+        </div>
+        <div class="slide">
+            <img src="./img/3.jpg" alt="Layanan Terbaik">
+        </div>
+        <div class="slide">
+            <img src="./img/5.jpg" alt="Layanan Terbaik">
+        </div>
+        <div class="slide">
+            <img src="./img/6.jpg" alt="Layanan Terbaik">
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="navbar-logo">
+                <i class="fas fa-laptop"></i>
+                Veloura
+            </a>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="products.html">Product</a></li>
+                <li><a href="mitra.html">Mitra</a></li>
+                <li><a href="kreditproduk.html">credit Product</a></li>
+                <li><a href="servicecenter.html">Service Center</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="navbar-toggle" id="navbar-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-laptop"></i>
+                Veloura Squishy Store
+            </div>
+            <div class="tagline">We do better for quality!</div>
+        </div>
+    </header>
+
+    <section class="welcome-section" id="home">
+        <div class="container">
+            <h1 class="welcome-title">Welcome To Our Store</h1>
+            <p class="welcome-subtitle">The best solution for your business Squishy needs with guaranteed quality and competitive prices</p>
+        </div>
+    </section>
+
+    
+
+    <div class="modal-overlay" id="product-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Detail Product</h3>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-product">
+                    <div class="modal-product-image">
+                        <img src="" alt="" id="modal-product-img">
+                    </div>
+                    <div class="modal-product-info">
+                        <div class="modal-product-brand" id="modal-product-brand"></div>
+                        <h3 class="modal-product-name" id="modal-product-name"></h3>
+                        <div class="modal-product-price" id="modal-product-price"></div>
+                        <div class="modal-product-description" id="modal-product-description"></div>
+                        <div class="modal-product-specs">
+                            <h4>Spesification Product</h4>
+                            <ul id="modal-product-specs-list"></ul>
+                        </div>
+                        <div class="modal-actions">
+                            <button class="btn btn-primary" id="modal-buy-now"><i class="fab fa-whatsapp"></i> Buy Now</button>
+                            <button class="btn btn-secondary" id="modal-close-btn"><i class="fas fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

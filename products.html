@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - Veloura Squishy Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="navbar-logo">
+                <i class="fas fa-laptop"></i>
+                Veloura
+            </a>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="products.html" class="active">Product</a></li>
+                <li><a href="mitra.html">Mitra</a></li>
+                <li><a href="kreditproduk.html">credit Product</a></li>
+                <li><a href="servicecenter.html">Service Center</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="navbar-toggle" id="navbar-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-laptop"></i>
+                Veloura Squishy Store
+            </div>
+            <div class="tagline">We do better for quality!</div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Produk Kami</h1>
+            <p>Temukan berbagai pilihan squishy berkualitas dengan harga terbaik</p>
+        </div>
+    </section>
+
+    <section class="products-section" id="products">
+        <div class="container">
+            <h2 class="section-title">Our Featured Products</h2>
+            
+            <!-- Kategori Produk -->
+            <div class="category-filter">
+                <button class="category-btn active" data-category="all">All Product</button>
+                <button class="category-btn" data-category="squishy-food">Squishy Food</button>
+                <button class="category-btn" data-category="squishy-animal">Squishy Animal</button>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-id="1" data-category="squishy-food">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-img">
+                        <img src="./img/1.png" alt="Squishy">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-brand">Squishy Food</div>
+                        <h3 class="product-name">Marshmallow Ghost</h3>
+                        <div class="product-price">Rp 168.544,80</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary"><i class="fab fa-whatsapp"></i> Buy Now</button>
+                            <button class="btn btn-secondary"><i class="fas fa-info-circle"></i> Detail</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="2" data-category="squishy-food">
+                    <div class="product-badge">Hot Deal</div>
+                    <div class="product-img">
+                        <img src="./img/2.jpg" alt="Squishy">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-brand">Squishy Food</div>
+                        <h3 class="product-name">Fluffy Butter Bread</h3>
+                        <div class="product-price">Rp 162.208,53</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary"><i class="fab fa-whatsapp"></i> Buy Now</button>
+                            <button class="btn btn-secondary"><i class="fas fa-info-circle"></i> Detail</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="3" data-category="squishy-animal">
+                    <div class="product-badge">New</div>
+                    <div class="product-img">
+                        <img src="./img/3.jpg" alt="Squishy">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-brand">Squishy Animal</div>
+                        <h3 class="product-name">Millie Whale</h3>
+                        <div class="product-price">Rp 168.544,80</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary"><i class="fab fa-whatsapp"></i> Buy Now</button>
+                            <button class="btn btn-secondary"><i class="fas fa-info-circle"></i> Detail</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="4" data-category="squishy-animal">
+                    <div class="product-img">
+                        <img src="./img/4.jpg" alt="Squishy">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-brand">Squishy Animal</div>
+                        <h3 class="product-name">Good night Puchi</h3>
+                        <div class="product-price">Rp 162.208,53</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary"><i class="fab fa-whatsapp"></i> Buy Now</button>
+                            <button class="btn btn-secondary"><i class="fas fa-info-circle"></i> Detail</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="5" data-category="squishy-food">
+                    <div class="product-img">
+                        <img src="./img/5.jpg" alt="Squishy">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-brand">Squishy Food</div>
+                        <h3 class="product-name">Marmo Moon Cake</h3>
+                        <div class="product-price">Rp 139.320,20</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary"><i class="fab fa-whatsapp"></i> Buy Now</button>
+                            <button class="btn btn-secondary"><i class="fas fa-info-circle"></i> Detail</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="6" data-category="squishy-animal">
+                    <div class="product-img">
+                        <img src="./img/6.jpg" alt="Squishy">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-brand">Squishy Animal</div>
+                        <h3 class="product-name">Melty Marmo</h3>
+                        <div class="product-price">Rp 168.450,79</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary"><i class="fab fa-whatsapp"></i> Buy Now</button>
+                            <button class="btn btn-secondary"><i class="fas fa-info-circle"></i> Detail</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contoh produk Squishy Food tambahan -->
+                <div class="product-card" data-id="7" data-category="squishy-food">
+                    <div class="product-badge">New</div>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/300x200?text=Ice+Cream+Squishy" alt="Squishy Food">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-brand">Squishy Food</div>
+                        <h3 class="product-name">Ice Cream Cone</h3>
+                        <div class="product-price">Rp 145.000,00</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary"><i class="fab fa-whatsapp"></i> Buy Now</button>
+                            <button class="btn btn-secondary"><i class="fas fa-info-circle"></i> Detail</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contoh produk Squishy Animal tambahan -->
+                <div class="product-card" data-id="8" data-category="squishy-animal">
+                    <div class="product-badge">Limited</div>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/300x200?text=Cat+Squishy" alt="Squishy Animal">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-brand">Squishy Animal</div>
+                        <h3 class="product-name">Sleeping Cat</h3>
+                        <div class="product-price">Rp 155.000,00</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary"><i class="fab fa-whatsapp"></i> Buy Now</button>
+                            <button class="btn btn-secondary"><i class="fas fa-info-circle"></i> Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p>Veloura ONLINE STORE is a squishy provider.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Squishy Sales</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Bandung, Indonesia</li>
+                        <li><i class="fas fa-phone"></i> +62 21 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@tokoonlineb2b.co.id</li>
+                        <li><i class="fab fa-whatsapp"></i> +62 812 3456 7890</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Our Application</h3>
+                    <p>Download our mobile app for a better shopping experience:</p>
+                    <div style="margin-top: 15px;">
+                        <a href="#" style="display: inline-block; margin-right: 10px;"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" width="120"></a>
+                        <a href="#" style="display: inline-block;"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store" width="120"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Veloura ONLINE STORE. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="product-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Detail Product</h3>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-product">
+                    <div class="modal-product-image">
+                        <img src="" alt="" id="modal-product-img">
+                    </div>
+                    <div class="modal-product-info">
+                        <div class="modal-product-brand" id="modal-product-brand"></div>
+                        <h3 class="modal-product-name" id="modal-product-name"></h3>
+                        <div class="modal-product-price" id="modal-product-price"></div>
+                        <div class="modal-product-description" id="modal-product-description"></div>
+                        <div class="modal-product-specs">
+                            <h4>Spesification Product</h4>
+                            <ul id="modal-product-specs-list"></ul>
+                        </div>
+                        <div class="modal-actions">
+                            <button class="btn btn-primary" id="modal-buy-now"><i class="fab fa-whatsapp"></i> Buy Now</button>
+                            <button class="btn btn-secondary" id="modal-close-btn"><i class="fas fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
